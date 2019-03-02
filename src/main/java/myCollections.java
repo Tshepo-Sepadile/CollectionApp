@@ -22,7 +22,6 @@ public class myCollections {
 
         for(int i = 0; i<myArrayList.size(); i++)
         {
-            System.out.println("Here is my list: ");
             System.out.println(myArrayList.get(i));
         }
     }
@@ -51,7 +50,6 @@ public class myCollections {
         theMap.put("4", "Pizza");
 
         System.out.println("Here are my map elements:");
-        System.out.println(theMap)
-        ;
+        System.out.println(theMap);
     }
 }
